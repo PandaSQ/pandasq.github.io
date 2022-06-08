@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Pure栅格框架</title>
+    <link href="/2022/06/08/Pure/"/>
+    <url>/2022/06/08/Pure/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Prue中文文档"><a href="#Prue中文文档" class="headerlink" title="Prue中文文档"></a><a href="http://www.purecss.cn/" style="color: #000000;">Prue中文文档</a></h1><h1 id="将-Pure-引入你的页面"><a href="#将-Pure-引入你的页面" class="headerlink" title="将 Pure 引入你的页面"></a>将 Pure 引入你的页面</h1><p>你可以借助 <strong>free unpkg CDN</strong> 添加 Pure ：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/purecss@<span class="hljs-number">2.0</span>.<span class="hljs-number">3</span>/build/pure-min.css<span class="hljs-string">&quot; integrity=&quot;</span>sha384-CCTZv2q9I9m3UOxRLaJneXrrqKwUNOzZ6NGEUMwHtShDJ+nCoiXJCAgi05KfkLGY<span class="hljs-string">&quot; crossorigin=&quot;</span>anonymous<span class="hljs-string">&quot;&gt;</span><br></code></pre></td></tr></table></figure><p>也可已将Pure下载到本地：</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/pure-css/</span>pure-release<span class="hljs-regexp">/archive/</span>v1.<span class="hljs-number">0.0</span>.zip<br></code></pre></td></tr></table></figure><h1 id="添加-Viewport-Meta-元素"><a href="#添加-Viewport-Meta-元素" class="headerlink" title="添加 Viewport Meta 元素"></a>添加 Viewport Meta 元素</h1><p>Viewport<code>meta</code>元素控制移动端浏览器的宽度和缩放。为了自适应设备的宽度，请将下面一行加入<code>&lt;head&gt;</code>中。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width, initial-scale=1&quot;</span>&gt;</span><br></code></pre></td></tr></table></figure><h1 id="熟悉Pure的栅格"><a href="#熟悉Pure的栅格" class="headerlink" title="熟悉Pure的栅格"></a>熟悉Pure的栅格</h1><p>Pure的栅格系统非常简单。你可以使用<code>.pure-g</code>创建行, 使用<code>pure-u-*</code>创建列。</p><p>下面是一个把一行分为3列，每列占三分之一的栅格：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pure-g&quot;</span>&gt;</span><br><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pure-u-1-3&quot;</span>&gt;</span> 我是左边 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pure-u-1-3&quot;</span>&gt;</span> 我是中间 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pure-u-1-3&quot;</span>&gt;</span> 我是右边 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br></code></pre></td></tr></table></figure><h1 id="栅格单元格大小"><a href="#栅格单元格大小" class="headerlink" title="栅格单元格大小"></a>栅格单元格大小</h1><p>Pure栅格默认支持<strong>5列</strong>和<strong>24列</strong>。下图列出了可以替换单元格class名**<code>pure-u-\*</code>*<em>中<code>*</code>的分数。比如用1-2替换</em>，class名就是<code>pure-u-1-2</code>，表示宽1&#x2F;2，即50%。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>前端框架</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Pure栅格框架</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>使用Hexo搭建博客（基础版）</title>
     <link href="/2022/06/06/wd/"/>
     <url>/2022/06/06/wd/</url>
